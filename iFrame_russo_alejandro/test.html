@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Pizzahouse.ico ">
+    <title>Ejemplo</title>
+    <style>
+    body,html{
+        height:100%;
+        width:100%;
+        display: flex;
+        background-color: darkgray;
+        flex-direction: column;
+        }
+    iFrame{
+      width: 500px;
+      height: 500px;
+      margin: auto;
+    }
+    div{
+        width: 100%;
+        margin: auto;
+        
+    }
+    button{
+        width: 10%;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 20%;
+        background-color: darkslategray;
+        color: white;  
+        border-radius: 10px;
+    }
+    
+    </style>
+</head>
+<body>
+    <iFrame id="main" src="">
+    </iFrame>
+    <div>
+        <button onclick="changeBackwards()" style="margin-right: 20%;">ATRAS</button>
+        <button onclick="changeFoward()">ADELANTE</button>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
