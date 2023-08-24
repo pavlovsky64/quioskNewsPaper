@@ -1,0 +1,2 @@
+# quioskNewsPaper
+trabajo de informatica
